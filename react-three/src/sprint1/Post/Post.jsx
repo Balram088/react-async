@@ -26,7 +26,7 @@ const {
 
   return (
     <div>
-      <img src={img} width="100px" />
+      <img src={img} width="100px" alt=""/>
        <Title name={title}/>
        <h4>  All Post</h4>
       {posts.map((post) => (
