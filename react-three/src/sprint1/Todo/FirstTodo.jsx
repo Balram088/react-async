@@ -22,8 +22,8 @@ export default function FirstTodo() {
     <h1>First Todo</h1>
       <input value={text} type="text" onChange={handleChange}  placeholder="Add Item" />
       <br />
-      <button onClick={handleClear}>Clear Text</button>
-      <button onClick={handleAdd}>Add Item</button>
+      <button onClick={handleClear} disabled={!text}>Clear Text</button>
+      <button onClick={handleAdd} disabled={!text}>Add Item</button>
       <h3>Text:{text}</h3>
       <h4>Total Task-- {todos.length}</h4>
       <ol>

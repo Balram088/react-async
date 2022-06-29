@@ -8,7 +8,7 @@ const Button = ({
   return (
     <div>
       <button styl={{padding:"1rem",border:0,borderWidth:0,fontweight:"bold",backgroundColor:"red"}}
-      disabled={disabled}  onClick={onClick} > {child} </button>
+        onClick={onClick} > {child} </button>
     </div>
   )
 }
