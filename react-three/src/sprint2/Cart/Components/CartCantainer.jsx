@@ -1,5 +1,7 @@
 import React from 'react'
+import { useState } from 'react'
 import { CartItem } from './CartItem'
+import { Total } from './Total'
 
 const  Data = [
   {
@@ -22,11 +24,14 @@ const  Data = [
     qty:3
   }
 ]
-
+function calculateTotal(products){
+  return products.reduce((acc,current) =>acc + ( current.qty * current.price),0)
+}
 export const CartCantainer = () => {
-  return (
-    <div>
-      { Data.map((item) => (
+  const [data, setData] = useState(Data)
+return (
+    <>
+      { data.map(item => 
         <CartItem 
          key={item.id}
          id={item.id}
@@ -34,7 +39,8 @@ export const CartCantainer = () => {
          price={item.price}
          qty={item.qty}
         />
-      ))} 
-    </div>
+      )} 
+        {/* <Total total={calculateTotal(data)} /> */}
+  </>
   )
 }
