@@ -6,7 +6,7 @@ import './App.css';
 // import FirstTodo from './sprint1/Todo/FirstTodo';
 
 //SPRINT-2
-import { CartCantainer } from './sprint2/Cart/Components/CartCantainer';
+// import { CartCantainer } from './sprint2/Cart/Components/CartCantainer';
 // import { Todouseeffect } from './sprint2/useEffectTodo/Todouseeffect';  //with disabled and pagination
 // import { UseEffectWorking } from './sprint2/useEffect/UseEffectWorking';
 
@@ -22,7 +22,7 @@ function App() {
        {/* <Login isAuth={true}/> */}
      {/* <PostMsg/>  usewithout props and use destructuring method */}
     
-       <CartCantainer/>
+       {/* <CartCantainer/> */}
        {/* <Todouseeffect/> */}
        {/* <UseEffectWorking/> */}
     </div>
