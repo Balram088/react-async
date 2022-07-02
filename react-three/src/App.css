@@ -10,6 +10,26 @@
   margin:30%;
   
 }
+.buttons{
+   background-color:     
+   white;
+   color:
+   #1877f2;
+   padding: 10px;
+   font-weight: 800;
+   border-radius: 10%;
+}
+.inputs{
+  padding: 20px;
+  border: 2px solid 
+  #1877f2 ;
+  border-radius: 10px;
+  gap: 20px;
+  font-size: 20px;
+  width: 42%;
+  margin-left: 2%;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
