@@ -1,5 +1,7 @@
 
 import './App.css';
+import { Form } from './sprint2/Form/Form';
+import Timer from './sprint2/Useref/Timer/Timer';
    //SPRINT-1
 // import Login from './sprint1/AuthTurnery/Login';
 // import { SecoundTodo } from './sprint1/SecoundTodo.jsx/SecoundTodo';
@@ -25,6 +27,8 @@ function App() {
        {/* <CartCantainer/> */}
        {/* <Todouseeffect/> */}
        {/* <UseEffectWorking/> */}
+       {/* <Form/> */}
+       <Timer/>
     </div>
   );
 }

@@ -12,4 +12,4 @@ const [count,setCount] = useState(0);
   )
 }
 
-export default counter
+export default Counter
