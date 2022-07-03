@@ -12,8 +12,8 @@ export default function Todo() {
       {
         id: todos.length + Date.now(),
         title: text,
-        status: false
-      }
+        status: false,
+      },
     ]);
     handleClear(text);
   };
@@ -23,8 +23,8 @@ export default function Todo() {
       item.id === id
         ? {
             ...item,
-      
-            status: !item.status
+
+            status: !item.status,
           }
         : item
     );
@@ -38,7 +38,15 @@ export default function Todo() {
 
   console.log(todos);
   return (
-    <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",width:"70%",height:"1000px" , marginLeft:"15%",backgroundColor:"#f8f8f8"}}>
+    <div
+      style={{
+        boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+        width: "70%",
+        height: "1000px",
+        marginLeft: "15%",
+        backgroundColor: "#f8f8f8",
+      }}
+    >
       <h1>TODO</h1>
       <AddTodo handleAdd={handleAdd} />
       {/* <Todolist

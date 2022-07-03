@@ -1,5 +1,6 @@
 
 import './App.css';
+import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
 
    //SPRINT-1
 // import Login from './sprint1/AuthTurnery/Login';
@@ -7,7 +8,7 @@ import './App.css';
 // import FirstTodo from './sprint1/Todo/FirstTodo';
 
 //SPRINT-2
-import Todo from './sprint2/Todo/Todo';
+// import Todo from './sprint2/Todo/Todo';
 // import { CartCantainer } from './sprint2/Cart/Components/CartCantainer';
 // import { Todouseeffect } from './sprint2/useEffectTodo/Todouseeffect';  //with disabled and pagination
 // import { UseEffectWorking } from './sprint2/useEffect/UseEffectWorking';
@@ -25,12 +26,15 @@ function App() {
        {/* <Login isAuth={true}/> */}
      {/* <PostMsg/>  usewithout props and use destructuring method */}
        
-       <Todo/>
+       {/* <Todo/> */}
        {/* <CartCantainer/> */}
        {/* <Todouseeffect/> */}
        {/* <UseEffectWorking/> */}
        {/* <Form/> */}
        {/* <Timer/> */}
+       <TodowithServer/>
+
+
     </div>
   );
 }

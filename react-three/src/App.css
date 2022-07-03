@@ -19,6 +19,16 @@
    font-weight: 800;
    border-radius: 10%;
 }
+.buttons1{
+  background-color:     
+  white;
+  color:
+  #1877f2;
+  padding: 15px;
+  font-weight: 1000;
+  border-radius: 50%;
+  font-size: 20px;
+}
 .inputs{
   padding: 20px;
   border: 2px solid 
