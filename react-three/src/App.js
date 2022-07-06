@@ -1,6 +1,9 @@
 
 import './App.css';
-import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
+// import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
+// import Counter from './sprint3/CounterWithUseReducer/Counter';
+// import { Git } from './sprint3/Reducer&Action/Git';
+import { AllRoutes } from './sprint3/Router/AllRoutes';
 
    //SPRINT-1
 // import Login from './sprint1/AuthTurnery/Login';
@@ -32,7 +35,12 @@ function App() {
        {/* <UseEffectWorking/> */}
        {/* <Form/> */}
        {/* <Timer/> */}
-       <TodowithServer/>
+       {/* <TodowithServer/> */}
+
+
+       {/* <Counter/> */}
+       {/* <Git/> */}
+       <AllRoutes/>
 
 
     </div>
