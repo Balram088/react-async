@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 
 // let ids=[1,2,3,4,5]
 
@@ -15,14 +15,20 @@ export const Users = () => {
       setData(res.data)
      })
   },[]);
+
+
+  // const isAuth =false;
+  // if (!isAuth){
+  //   return <Navigate to="/users"/>
+  // }
   return (
     <div >
 
         {data.map((user)=>(
       <div key={user.id}  style={{display:"inline-block",margin:"30px" }}>
-        <h2>{user.first_name}</h2>
+        
         <img width="300px" src={user.avatar} alt={user.id} />
-        <br />
+        <h2>{user.first_name}</h2>
         <h3><Link to={`/users/${user.id}`}>Know More..</Link></h3>
         </div>
      
