@@ -13,7 +13,7 @@ const UserPage = () => {
     .then((res) =>{
      setData(res.data)
     })
- }, []);
+ },[]);
 console.log("fgasfafa",data);
   return (
     <div>

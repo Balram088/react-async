@@ -16,16 +16,15 @@ export const Users = () => {
      })
   },[]);
   return (
-    <div>
+    <div >
+
         {data.map((user)=>(
-      <div key={user.id} >
-        <h3>{user.first_name}</h3>
+      <div key={user.id}  style={{display:"inline-block",margin:"30px" }}>
+        <h2>{user.first_name}</h2>
         <img width="300px" src={user.avatar} alt={user.id} />
         <br />
-        <Link to={`/users/${user.id}`}>More..</Link>
-       
-        
-      </div>
+        <h3><Link to={`/users/${user.id}`}>Know More..</Link></h3>
+        </div>
      
       ))}
   
