@@ -15,14 +15,13 @@ const links=[
         title:"Contact "
     },
     {
-        to:"users",
-        title:" Users"
+        to:"products",
+        title:" Products"
     },
-    {
-        to:"login",
-        title:"Login"
-        // title:{isAuth?"Login":"Loguot"}
-    }
+    // {
+    //     to:"users/id",
+    //     title:""
+    // }
     
 ]
 const activeStyle ={

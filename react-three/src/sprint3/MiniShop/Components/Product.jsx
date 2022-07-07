@@ -1,23 +1,20 @@
 import React, { useEffect, useState } from 'react'
-import { useContext } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { AuthContext } from './AuthContext';
 
 
-const UserPage = () => {
+const Product = () => {
   const [data,setData] =useState({});
-  // const {state} = useContext(AuthContext);
 
   const params = useParams();
   console.log(params);
   useEffect(() => {
-    fetch(` https://reqres.in/api/users/${params.id}`)
+    fetch(`http://localhost:3000/makeup/${params.id}`)
     .then((res) => res.json())
     .then((res) =>{
      setData(res.data)
     })
  },[]);
-console.log("fgasfafa",data);
+console.log(data);
   return (
     <div>
         <h1>User singal page</h1>
@@ -26,13 +23,13 @@ console.log("fgasfafa",data);
     
       <div>
         <h1>User</h1>
-        <h3>Name: {data.first_name}</h3>
-        <img width="300px" src={data.avatar} alt={data.id} />
-        <div> <Link to="/users">Go Back</Link>  </div>
+        <h3>Name: {data.title}</h3>
+        <img width="300px" src={data.images} alt={data.id} />
+        <div> <Link to="/products">Go Back</Link>  </div>
     </div>
     </div>
     </div>
   )
 }
 
-export default UserPage
+export default Product

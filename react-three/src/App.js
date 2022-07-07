@@ -1,5 +1,6 @@
 
 import './App.css';
+// import { MainRoutes } from './sprint3/MiniShop/MainRoutes';
 // import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
 // import Counter from './sprint3/CounterWithUseReducer/Counter';
 // import { Git } from './sprint3/Reducer&Action/Git';
@@ -41,6 +42,7 @@ function App() {
        {/* <Counter/> */}
        {/* <Git/> */}
        <AllRoutes/>
+       {/* <MainRoutes/> */}
 
 
     </div>

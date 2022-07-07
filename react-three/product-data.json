@@ -1,0 +1,28 @@
+{
+  "makeup": [
+    {
+      "id": 1,
+      "title": "Foundation",
+      "Price": 1999,
+      "imges":"https://3.imimg.com/data3/KH/GI/MY-3904945/foundation-500x500.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Pan Cake Beuty",
+      "Price": 199,
+      "imges":"https://3.imimg.com/data3/KH/GI/MY-3904945/foundation-500x500.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Compect Powder",
+      "Price": 99,
+      "imges":"https://3.imimg.com/data3/NR/PX/MY-3904945/pan-stick-250x250.jpg"
+    },
+    {
+      "id": 4,
+      "title":"Pan Stick Beuty",
+      "Price": 9,
+      "images":"https://3.imimg.com/data3/NR/PX/MY-3904945/pan-stick-250x250.jpg"
+    }
+  ]
+}

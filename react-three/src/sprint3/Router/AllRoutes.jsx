@@ -6,6 +6,8 @@ import { Home } from './Components/Home'
 import Navbar from './Navbar'
 import { Users } from './Components/Users'
 import UserPage from './Components/UserPage'
+import { PrivateRouter } from './Components/PrivateRouter'
+import { Login } from './Components/Login'
 
 
 export const AllRoutes = () => {
@@ -16,8 +18,20 @@ export const AllRoutes = () => {
          <Route path="/" element= {<Home/>}  />
          <Route path="/about" element={<About/>} />
          <Route path="/contact" element={<Contact/>}/>
-         <Route path="/users" element={<Users />}/>
-         <Route path="users/:id" element={<UserPage/>}/>
+        
+         <Route path="/login" element={<Login/>}></Route>
+         {/* <Route path="/logout" element={<Logout/>}></Route> */}
+         
+
+         <Route path="/users" element={
+            <PrivateRouter>
+            <Users/>
+          </PrivateRouter>}/>
+       
+         <Route path="users/:id" element={
+         <PrivateRouter>
+         <UserPage/>
+         </PrivateRouter>}/>
          
 
         </Routes>
