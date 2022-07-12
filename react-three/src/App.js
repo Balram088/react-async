@@ -4,7 +4,8 @@ import './App.css';
 // import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
 // import Counter from './sprint3/CounterWithUseReducer/Counter';
 // import { Git } from './sprint3/Reducer&Action/Git';
-import { AllRoutes } from './sprint3/Router/AllRoutes';
+// import { AllRoutes } from './sprint3/Router/AllRoutes';
+import Todoaxios from './sprint4/Axios/Todoaxios';
 
    //SPRINT-1
 // import Login from './sprint1/AuthTurnery/Login';
@@ -41,8 +42,10 @@ function App() {
 
        {/* <Counter/> */}
        {/* <Git/> */}
-       <AllRoutes/>
+       {/* <AllRoutes/> */}
        {/* <MainRoutes/> */}
+
+       <Todoaxios/>
 
 
     </div>
