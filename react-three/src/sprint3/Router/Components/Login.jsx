@@ -34,7 +34,7 @@ export const Login = () => {
             navigate("/users");
         })
         .catch((err) =>{
-            alert("please fill correct info");
+            alert("Please Enter Currect email or password ");
         });
     }
     return (
