@@ -12,9 +12,9 @@ export default function Todoaxios() {
   //Feating data from here
 
   
-  const getTodos = (p=1) => {
+  const getTodos = () => {
     // Make a request for a user with a given ID
-axios.get('http://localhost:3000/todos?&_page=${5}&_limit=${3}')
+axios.get('http://localhost:3000/todos')
   .then(function (res) {
     // handle success
     setTodos(res);
@@ -54,8 +54,8 @@ axios.get('http://localhost:3000/todos?&_page=${5}&_limit=${3}')
   };
 
   useEffect(() => {
-    getTodos(page);
-  }, [page]);
+    getTodos();
+  }, []);
 
    
   //Put request for status

@@ -1,11 +1,12 @@
 
 import './App.css';
+
 // import { MainRoutes } from './sprint3/MiniShop/MainRoutes';
 // import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
 // import Counter from './sprint3/CounterWithUseReducer/Counter';
 // import { Git } from './sprint3/Reducer&Action/Git';
 // import { AllRoutes } from './sprint3/Router/AllRoutes';
-import Todoaxios from './sprint4/Axios/Todoaxios';
+// import Todoaxios from './sprint4/Axios/Todoaxios';
 
    //SPRINT-1
 // import Login from './sprint1/AuthTurnery/Login';
@@ -20,10 +21,13 @@ import Todoaxios from './sprint4/Axios/Todoaxios';
 // import { Form } from './sprint2/Form/Form';
 // import Timer from './sprint2/Useref/Timer/Timer';
 
+import Form from './sprint4/UiLiberery/Form';
+import { Container } from '@chakra-ui/react';
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
        {/* <FirstTodo/> */}
       {/* <div className='stodo'>
          <SecoundTodo/>
@@ -45,11 +49,13 @@ function App() {
        {/* <AllRoutes/> */}
        {/* <MainRoutes/> */}
 
-       <Todoaxios/>
+       {/* <Todoaxios/> */}
+       
+       <Form/>
 
-
+        
     </div>
-  );
+  )
 }
 
 export default App;
