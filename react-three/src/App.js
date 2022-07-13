@@ -23,6 +23,7 @@ import './App.css';
 
 import Form from './sprint4/UiLiberery/Form';
 import { Container } from '@chakra-ui/react';
+import Responsiveness from './sprint4/UiLiberery/Responsiveness';
 
 
 function App() {
@@ -51,8 +52,8 @@ function App() {
 
        {/* <Todoaxios/> */}
        
-       <Form/>
-
+        {/* <Form/> */}
+        <Responsiveness/>
         
     </div>
   )
