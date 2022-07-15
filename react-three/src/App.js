@@ -21,10 +21,10 @@ import './App.css';
 // import { Form } from './sprint2/Form/Form';
 // import Timer from './sprint2/Useref/Timer/Timer';
 
-import Form from './sprint4/UiLiberery/Form';
-import { Container } from '@chakra-ui/react';
-import Responsiveness from './sprint4/UiLiberery/Responsiveness';
-
+// import Form from './sprint4/UiLiberery/Form';
+// import { Container } from '@chakra-ui/react';
+// import Responsiveness from './sprint4/UiLiberery/Responsiveness';
+import Flexe from "./sprint4/UiLiberery/Flexe";
 
 function App() {
   return (
@@ -53,7 +53,8 @@ function App() {
        {/* <Todoaxios/> */}
        
         {/* <Form/> */}
-        <Responsiveness/>
+        {/* <Responsiveness/> */}
+        <Flexe/>
         
     </div>
   )
