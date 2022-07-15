@@ -1,7 +1,7 @@
 import React from 'react';
 import {SunIcon , MoonIcon} from "@chakra-ui/icons"
 import {
-  Button, Center, IconButton, Stack, Text, useColorMode
+  Button, Center, IconButton, Stack, useBreakpointValue,useColorMode
 } from "@chakra-ui/react";
 
 
@@ -9,6 +9,13 @@ import {
 
 const Them = () => {
  const {colorMode , toggleColorMode} = useColorMode();
+
+ const text = useBreakpointValue({
+  base:"BASE",
+  sm:"SMALL",
+  md:"MEDIUM"
+ });
+ 
 
 return (
     <>
@@ -31,9 +38,14 @@ return (
        variant="solid" 
        colorScheme="red"
        >Theme2</Button>
-     
+       
+       <Button>{text}</Button>
+       <h1>
+        {text}
+        </h1> 
       </Stack>
      </Center>
+   
     </>
   )
 }
