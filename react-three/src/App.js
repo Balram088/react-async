@@ -1,5 +1,6 @@
 
 import './App.css';
+import { ChakraSafes } from './sprint4/UiLiberery/ChakraSafes';
 
 // import { MainRoutes } from './sprint3/MiniShop/MainRoutes';
 // import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
@@ -25,7 +26,7 @@ import './App.css';
 // import { Container } from '@chakra-ui/react';
 // import Responsiveness from './sprint4/UiLiberery/Responsiveness';
 // import Flexe from "./sprint4/UiLiberery/Flexenav";
-import Them from './sprint4/UiLiberery/Them';
+// import Them from './sprint4/UiLiberery/Them';
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
         {/* <Form/> */}
         {/* <Responsiveness/> */}
         {/* <Flexe/> */}
-        <Them/>
+        {/* <Them/> */}
+        <ChakraSafes/>
         
     </div>
   )
