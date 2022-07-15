@@ -24,7 +24,7 @@ import './App.css';
 // import Form from './sprint4/UiLiberery/Form';
 // import { Container } from '@chakra-ui/react';
 // import Responsiveness from './sprint4/UiLiberery/Responsiveness';
-import Flexe from "./sprint4/UiLiberery/Flexe";
+import Flexe from "./sprint4/UiLiberery/Flexenav";
 
 function App() {
   return (
