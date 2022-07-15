@@ -7,14 +7,14 @@ const Form = () => {
 
   return (
     <div>
-    <Box >
+    <Box size="md" >
        <Heading>Form</Heading>
        <Stack direction="column" gap="0.5rem">
        <Box><Input type="email"  placeholder='Email'/></Box>
        <Box><Input type="password" placeholder='password' /></Box>
        <Box><Button>Sign up</Button></Box>
       <Box>
-         <PinInput size='ms' value={otp} onChange={(value) => setOtp(value)}  otp>
+         <PinInput  value={otp} onChange={(value) => setOtp(value)}  otp>
         <PinInputField/>
        <PinInputField/>
        <PinInputField/>
