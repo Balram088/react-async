@@ -11,7 +11,7 @@ const LazyImage = ({ src, aspectRatio, lazyLoad }) => {
 
   return (
     <div className="lazyImage" style={{ paddingTop }}>
-      <img className="lazyImage__img" data-src={src} />
+      <img className="lazyImage__img" src={src} alt=""/>
     </div>
   );
 };

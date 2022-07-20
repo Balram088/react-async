@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Carousel from "./Carousel/Carousel";
 import { LazyImageProvider } from "./LazyImage/LazyImageContext";
 import LazyImage from "./LazyImage/LazyImage";

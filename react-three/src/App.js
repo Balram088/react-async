@@ -1,7 +1,8 @@
 
 
 import './App.css';
-import Slider from './sprint4/Slider/Slider';
+import { ImageSlide } from './sprint4/ImageSlider/ImageSlide';
+// import Slider from './sprint4/Slider/Slider';
 // import { ChakraSafes } from './sprint4/UiLiberery/ChakraSafes';
 
 // import { MainRoutes } from './sprint3/MiniShop/MainRoutes';
@@ -62,7 +63,8 @@ function App() {
         {/* <Flexe/> */}
         {/* <Them/> */}
         {/* <ChakraSafes/> */}
-        <Slider/>
+        {/* <Slider/> */}
+        <ImageSlide/>
       
         
     </div>
