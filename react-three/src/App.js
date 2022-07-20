@@ -1,6 +1,8 @@
 
+
 import './App.css';
-import { ChakraSafes } from './sprint4/UiLiberery/ChakraSafes';
+import Slider from './sprint4/Slider/Slider';
+// import { ChakraSafes } from './sprint4/UiLiberery/ChakraSafes';
 
 // import { MainRoutes } from './sprint3/MiniShop/MainRoutes';
 // import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
@@ -27,6 +29,7 @@ import { ChakraSafes } from './sprint4/UiLiberery/ChakraSafes';
 // import Responsiveness from './sprint4/UiLiberery/Responsiveness';
 // import Flexe from "./sprint4/UiLiberery/Flexenav";
 // import Them from './sprint4/UiLiberery/Them';
+
 
 function App() {
   return (
@@ -58,7 +61,9 @@ function App() {
         {/* <Responsiveness/> */}
         {/* <Flexe/> */}
         {/* <Them/> */}
-        <ChakraSafes/>
+        {/* <ChakraSafes/> */}
+        <Slider/>
+      
         
     </div>
   )

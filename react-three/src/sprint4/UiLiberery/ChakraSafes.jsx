@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Grid, GridItem, Spacer, Square, Stack, StackDivider, Text, VStack } from '@chakra-ui/react'
+import { Box, Center, Flex, Grid, GridItem, Spacer, Square, Stack, StackDivider, Text } from '@chakra-ui/react'
 import React from 'react'
 
 export const ChakraSafes = () => {
