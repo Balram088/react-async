@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
+import { AuthContextProvider } from './sprint3/Router/Components/AuthContext';
 
 
 // import { AuthContextProvider } from './sprint3/Router/Components/AuthContext';
@@ -15,13 +16,13 @@ root.render(
    
      <BrowserRouter>
     
-     {/* <AuthContextProvider> */}
+     <AuthContextProvider>
       
       <ChakraProvider>
       
       <App />
     </ChakraProvider>
-     {/* </AuthContextProvider> */}
+     </AuthContextProvider>
    
     </BrowserRouter>
   

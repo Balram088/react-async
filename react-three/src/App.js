@@ -9,7 +9,7 @@ import { ImageSlide } from './sprint4/ImageSlider/ImageSlide';
 // import TodowithServer from './sprint2/TodowWithServer/TodowithServer';
 // import Counter from './sprint3/CounterWithUseReducer/Counter';
 // import { Git } from './sprint3/Reducer&Action/Git';
-// import { AllRoutes } from './sprint3/Router/AllRoutes';
+import { AllRoutes } from './sprint3/Router/AllRoutes';
 // import Todoaxios from './sprint4/Axios/Todoaxios';
 
    //SPRINT-1
@@ -53,7 +53,7 @@ function App() {
 
        {/* <Counter/> */}
        {/* <Git/> */}
-       {/* <AllRoutes/> */}
+       <AllRoutes/>
        {/* <MainRoutes/> */}
 
        {/* <Todoaxios/> */}
@@ -64,7 +64,7 @@ function App() {
         {/* <Them/> */}
         {/* <ChakraSafes/> */}
         {/* <Slider/> */}
-        <ImageSlide/>
+        {/* <ImageSlide/> */}
       
         
     </div>
